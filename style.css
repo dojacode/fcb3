@@ -1,0 +1,51 @@
+img.head_photo {
+  height:  250px;
+  width:  250px;
+  border-radius: 50%;
+}
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+*{/* Default Font */
+    font-family:  'Roboto',sans-serif; /*The Font Changes*/
+}
+
+h1,h2 {
+  font-family:  'Montserrat', sans-serif; 
+}
+
+h2{color:  #007bff;}
+
+ul {text-align:  center; list-style-position: inside; list-style: none; padding: 0;}
+
+#landing{
+
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gallery{
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  center;
+  color: white;
+}
+
+.tools{
+  padding:  25px;
+  border:  5px solid #f2f2f2;
+  border-radius: 15%;
+  margin: 20px;
+  height: 250px;
+  width: 50%;
+}
+
+html{scroll-behavior: smooth;}
+
+}
